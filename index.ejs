@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" user-scalable = no content="width=device-width, initial-scale=1.0">
+	<title>websocket</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<input type="checkbox" name="contact" id="contact">
+		<div class="shadow contactSection ">
+			<label for="contact">
+				<div class="exit"></div>
+			</label>
+			<h2>sydney academia chat room</h2>
+			<div class="info shadow">
+				<strong><p class="shadow">⚠ Kindly note that this is a beta project, so your feedback will be highly appreciated</p></strong>
+				<p>Make a small donation to support our community</p>
+				<strong><p>opay : 7063056845</p></strong>
+			</div>
+			<div class="info shadow">
+				<p>please like and suscribe to our youtube channel</p>
+				<strong><p><a href="https://www.youtube.com/channel/UCNqMn_9nV-PrEierbE9hi3Q" target="_blank">click this</a></p></strong>
+			</div>
+			<div class="info shadow">
+				<h2>user feedback</h2>
+				<strong><p style="text-transform: capitalize;">send us a feedback and feel free to rate our application</p></strong>
+				<textarea class="shadow" placeholder="enter your feedback" name="feedback" id="feedback" ></textarea>
+				<div class="sendFeed shadow">send</div>
+			</div>
+
+		</div>
+	<div class="container shadow">
+		<div class="video_page">
+					<div class="video_img"></div>
+					<div class="stream_hold">
+						<div class="count_log">
+							<span></span>
+							<p class="count">0.00</p>
+						</div>
+						<video class="stream_site"></video>
+					</div>
+		</div>
+		<div class="slide_panel">
+
+			<div class="sub_contain">
+				<div class="head">
+					<div class="contain_connect_disconect shadow">
+						<p class="connect_disconect"></p>
+						<img src="wifi.png">
+					</div>
+					<p class="type_model"><span></span></p>
+						<div class="user_name"><p><%=profile_name%></p></div>
+					<div class="profile"><label for="toggle"><div class="bulb shadow"></div></label></div>
+				</div>
+				<label for="contact"><div class="support shadow" style="background: rgba(248, 168, 7, 0.298);"></div></label>
+				<div class="text_cont shadow">
+					<div class="loader">
+						<div class="d_one"></div>
+						<div class="d_two"></div>
+						<div class="d_three"></div>
+					</div>
+					<div class="client_hold"></div>
+				</div>
+	     		<div class="wrap">
+					<input type="checkbox" name="emoji_tog" id="emoji_tog">
+					<div class="emoji_tab">
+						<div class="internal_emoji">
+						</div>
+					</div>
+					<label for="emoji_tog">
+						<img src="plus.png" class="toggle_emoji" height="15px" width="15px">
+					</label>
+	     			<!-- <audio controls class="record_tab"></audio> -->
+					<div class="flexible"></div>
+					<textarea placeholder='Enter msg' name="nam" class="in shadow"></textarea>
+					<div class="buttons">
+						<button class="btn shadow" title="hey"></button>
+						<div class="error_check shadow"></div>
+						<div class="vid_btn shadow"></div>
+						<div class="clipboard_master shadow"></div>
+						<label for="tog_search"><div class="msg_search shadow"></div></label>
+					</div>
+					<div class="audio_box shadow">
+						<p>recording audio... <small>click any part of screen to stop</small></p>
+					</div>
+					<input type="checkbox" id="tog_search">
+					<section class="search_plate">
+						<div class="search_equip">
+							<p class="no_found">-------</p>
+							<a class="float_bob"></a>
+						</div>
+						<div class="search_template">
+							<input type="text" placeholder="Search txt" class="search_bar shadow" name="text">
+							<div class="search_click"></div>
+						</div>
+					</section>
+				</div>
+		 	</div>
+			
+			<!-- <div class="bubble"></div> -->
+			<div class="bubble_hold"></div>
+			<input type="checkbox" name="toggle" id="toggle">
+			<div class="active">
+				<div class="all_hold">
+					<div class="hold_plateform">
+						<label for="toggle"><div class="toggle_img"></div></label>
+						<div class="contain_online">
+								<p class="no_online"></p>
+								<img src="enable.png">
+							</div>
+						<btn class="chat_room shadow"></btn>
+					</div>
+					<div class="search_plate">
+						<input type="text" class="search shadow" name="search">
+						<a class="search_img_icon"><div class="search_img shadow"></div></a>
+					</div>
+					<div class="disable_groupchat shadow">
+						<label for="chet"><p>disable group chat</p></label>
+						<input type="checkbox" checked class="che" id="chet">
+					</div>
+					<div class="activity_users">
+						<div class="fluid">
+							
+						</div>
+					</div>
+				</div>
+				<div class="plate_cont shadow">
+					<div class="plate"></div>
+				</div>
+			</div>
+
+		</div>
+		 <!-- <input type="color" name=""> -->
+	 </div>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="emoji_creator.js"></script>
+	<script src="sgv.js"></script>
+</body>
+</html>

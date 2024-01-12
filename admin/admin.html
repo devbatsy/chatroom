@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin page</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" name="feedToggle" id="feedToggle">
+        <div class="feedTab shadow">
+            <p class="shadow">no messages yet</p>
+        </div>
+        <h2>websocket chatapp</h2>
+        <div class="connectionLog shadow">
+            <div class="total shadow">Total connections : <span></span> connections</div>
+            <div class="active shadow"> active users : <span></span> users</div>
+            <div class="unique shadow"> unique connections : <span></span> </div>
+        </div>
+        <div class="tabular">
+            <div class="heading major shadow">
+                <span>Active Users</span>
+                <span>users Id</span>
+            </div>
+            <div class="flex tabular"></div>
+        </div>
+        <label for="feedToggle">
+            <div class="feedBack button scale"></div>
+        </label>
+        <div class="clear button scale">Clear Feedback</div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
