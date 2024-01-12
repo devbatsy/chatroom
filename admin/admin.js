@@ -1,4 +1,4 @@
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('wss://sydchatroom.onrender.com');
 const tabular = document.querySelector('.flex');
 const total = document.querySelector('.total').querySelector('span');
 const active = document.querySelector('.active').querySelector('span');
