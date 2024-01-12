@@ -1,4 +1,4 @@
-const ws = new WebSocket('ws://localhost:8080');
+		const ws = new WebSocket('wss://sydchatroom.onrender.com');
 		const btn = document.querySelector('.btn')
 		const input = document.querySelector('.in');
 		const active = document.querySelector('.active');
